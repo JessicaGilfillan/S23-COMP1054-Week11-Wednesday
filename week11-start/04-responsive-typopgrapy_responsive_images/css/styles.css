@@ -75,28 +75,8 @@ p {
 
 /* Responsive Typography */
 
-html {
-    /* scale text according to user's viewport size */
-    font-size: calc(0.75rem + 1.5vw);
-    /* control where the scaling starts and ends */
-    font-size: clamp(1rem, 0.75rem + 1.5vw, 1.5rem);
-    /*set a line height with unitless value */
-    line-height: 1.6;
-}
-
 
 /* Responsive Images  */
 
 /* Strategy One - Constrain Your Images */
 /* Declare that images should never be rendered at a size wider than their containing element using max-inline-size. */
-
-img {
-    height: 100%;
-    width: 100%;
-    max-inline-size: 100%;
-    block-size: auto;
-    /*
-    aspect-ratio: 2/1;
-    object-fit: contain;
-    */
-}
